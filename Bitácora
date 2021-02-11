@@ -1,0 +1,23 @@
+Comandos de Linux
+
+Pwd	- Muestra la ruta o carpeta en la que se encuentra actualmente
+Mkdir	- Se utiliza para generar carpetas nuevas
+ls	- Muestra los archivos actuales
+ls-la	- Muestra los archivos con detalles y hasta los archivos ocultos
+cd	- Es para cambiar la ubicación donde nos encontramos en el directorio
+cd .. 	- Me devuelve a la carpeta en la que estaba antes
+touch NombreArchivo.txt	- Crea archivos
+nano NombreArchivo.txt	- Es para editar archivos
+cat archivo.txt	- Muestra el contenido del archivo. 
+uname -a	- Este me dice cuál es la versión de linux que estoy utilizando
+Sudo apt search nombresoftware	- Busca software
+top	- Veo los procesos que están corriendo en el sistema operativo
+ctrl + c	- Termina el programa actual en el que estamos
+htop	- Ve los procesos igual pero más lindo 
+ps -aux	- Todos los procesos que hay corriendo en el sistema operativo. Desde ahí puedo matar procesos con el PID. Le doy -> kill - 9 numeroproceso
+pstree	- Se ven los procesos en forma de árbol. 
+history	- Da el listado de todo lo que hemos digitado
+sudo su	- Da permisos de root
+find	- Se utiliza para buscar archivos
+locate	- Hay que instalar m locate. Uno pone locate archivo.txt. Se utiliza para buscar archivos en el sistema.
+
