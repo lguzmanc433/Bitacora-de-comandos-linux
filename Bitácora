@@ -20,4 +20,8 @@ history	- Da el listado de todo lo que hemos digitado
 sudo su	- Da permisos de root
 find	- Se utiliza para buscar archivos
 locate	- Hay que instalar m locate. Uno pone locate archivo.txt. Se utiliza para buscar archivos en el sistema.
-
+sudo apt update - Hace un listado de los paquetes a actualizar
+sudo apt upgrade - instala los paquetes nuevos encontrados en el update. 
+sudo apt install apache2 - Instala apache 2: e sun se4rvidor web. Ya en eso podemos montar una página web. 
+sudo cp - hace una copia de un archivo. Requiere el nombre del archivo a copiar y el nuevo nomrbe a otorgarle. 
+ 
