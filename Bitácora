@@ -24,4 +24,6 @@ sudo apt update - Hace un listado de los paquetes a actualizar
 sudo apt upgrade - instala los paquetes nuevos encontrados en el update. 
 sudo apt install apache2 - Instala apache 2: e sun se4rvidor web. Ya en eso podemos montar una página web. 
 sudo cp - hace una copia de un archivo. Requiere el nombre del archivo a copiar y el nuevo nomrbe a otorgarle. 
+dh -h / Retorna todos los sistemas de archivos corriendo. 
+ sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk
  
