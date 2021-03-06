@@ -26,4 +26,16 @@ sudo apt install apache2 - Instala apache 2: e sun se4rvidor web. Ya en eso pode
 sudo cp - hace una copia de un archivo. Requiere el nombre del archivo a copiar y el nuevo nomrbe a otorgarle. 
 dh -h / Retorna todos los sistemas de archivos corriendo. 
  sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk
- 
+DU - Sirve para ver el tamaño de un archivo. 
+Stats Muestra la información del archivo como el nombre, tamaño, donde está ubicado en el disco duro. Cuál es el modo de acceso, quién es el dueño del archivo, fechas de acceso, modificación y demás. 
+file - dice de que tigo es el archivo. Dice datos del archivo como la resulución de la imagen, como fué hecha, . 
+cp - hace que se cambie la extensión de los archivos. 
+ls -l -Dice quien es el usuario dueño del archivo, el grupo al cuál pertenece. 
+chown usuariodestino - cambia de dueño un archivo que se especifique. 
+chmod numerodepermisos elarchivo - esto para poder cambiar los permisos de un arhchivo. 
+df -h Puedo ver entre otros, información del disco duro. 
+snap - Gestor de instalación. Instalan un sistema de archivos separado para la aplicación. Por apps que solo se quiera configurar que quieren tener acceso a esa aplicación 
+flatpack - gestor de instalación
+kil -p $PID: Esto mata los procesos según el process ID. 
+ps -auc: lista de todos los procesos que hay en el sistema operativo. 
+
