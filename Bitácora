@@ -38,4 +38,9 @@ snap - Gestor de instalación. Instalan un sistema de archivos separado para la 
 flatpack - gestor de instalación
 kil -p $PID: Esto mata los procesos según el process ID. 
 ps -auc: lista de todos los procesos que hay en el sistema operativo. 
+Docker images - me dice cuales imagenes de docker tengo instaladas. 
+docker ps -a me permite ver las m[aquinas virtuales de docker que est[a corriendo. 
+docker run para correr una imagen
+docker container rm es para remover un contenedor
+docker attach idcontainer y se pega a la terminal del contendeor. 
 
